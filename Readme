@@ -1,0 +1,8 @@
+Microbenchmark harness prototype
+
+Issues
+Work in progress
+
+* The mozhttpd server doesn't seem to be running at the website it is set up on.
+* Marionette is attempting to execute the script and I think it is, but there is a curWindow not defined error happening which I think is hosing the browser
+* You need to run it with a build that has marionette active, and here is the command line: microbench --binary=/home/ctalbert/projects/m-c/obj-dbg-linux/dist/bin/firefox microbench/tests/test_sanity.html
